@@ -1,0 +1,40 @@
+/* Stylesheet - Chris Tomaskovic */
+#checkers-board{
+    width: 416px;
+    height: 416px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+/* Configure the checkers square */
+.square{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+/* This will make the square slategray */
+.black{
+    background-color: slategray;
+}
+
+/* Configure the round checkers piece with a border */
+.checker{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 2.5px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+/* This will make the checkers piece ivory */
+.checker-w{
+    background-color: ivory;
+}
+
+/* This will make the checkers piece black */
+.checker-b{
+    background-color: black;
+}
